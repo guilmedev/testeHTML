@@ -1,0 +1,89 @@
+
+.panel-relatos{
+    text-align: center;
+
+    display: block;
+    width: 100%;
+    height: auto; 
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/relatos_BG.jpg");             
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightgray;
+
+    padding-bottom: 12px;
+        
+}
+
+.panel-relatos .title{
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-top: 12px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #000000;    
+}
+
+
+
+.panel-relatos .item-relatos-list{   
+       
+    display: inline-block;
+    
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.7);
+    margin-top: 8px;
+    padding: 8px;     
+    width: 250px;   
+}
+
+.panel-relatos .item-relatos-list .relatos-name{    
+    
+    font-weight: bold;
+}
+
+blockquote{
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.panel-relatos .item-relatos-list .relatos-name::after{    
+    content: '"';
+    
+    font-size: 32px;
+    float: right;
+}
+
+
+
+
+@media (min-width: 650px){
+
+
+    .panel-relatos{
+
+        height: 300px; 
+
+
+    }
+
+    .panel-relatos .item-relatos-list{   
+       
+        display: inline-block;
+                
+        padding: 15px;     
+        width: 25%;   
+    }
+
+    .relatos-list{
+        padding: 30px;     
+    }
+
+
+
+    
+}
+

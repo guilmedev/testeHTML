@@ -1,0 +1,101 @@
+.panel-cursos{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    padding: 4px 0 0 4px;
+    
+    
+}
+
+.panel-cursos .title{
+    color: white;
+    padding: 12px 0px 24px 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 3px #000000;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    
+}
+
+.panel-cursos .cursos{
+    display: inline-block;
+    margin: 0 4px 0 4px;
+
+    transition: all .2s ease-in-out;
+}
+
+.curso-item{
+    
+    display: inline-block;
+    background-color: rgba(0, 0, 0, .2);
+    border: 1px solid white;
+    border-radius: 4px;    
+    box-shadow: 1px 1px 8px 1px;
+    width: 120px;    
+    margin-bottom: 12px;
+    padding: 8px 0px;
+    vertical-align: top;
+}
+
+.curso-item img{
+    width: 20%;
+    border-radius: 50%;    
+    display: block;
+    margin-left: 8px;
+    float: left;    
+}
+
+
+.cursos .curso-title{
+    font-size: 12px;    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left: 12px;
+    margin-top: 4px;        
+}
+
+
+.panel-cursos .cursos:hover{
+
+    cursor: pointer;
+    transform: scale(1.2);
+    
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 650px){
+
+
+    .curso-item{
+        width: 90%;    
+    }
+
+    .panel-cursos{
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .panel-cursos .title{
+        padding-top: 20px;
+        padding-bottom: 40px;
+        font-size: 2em;
+        
+    }
+
+    .cursos .curso-title{
+        font-size: 24px;    
+  
+    }
+    
+}
+

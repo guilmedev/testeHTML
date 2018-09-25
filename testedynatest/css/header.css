@@ -1,0 +1,136 @@
+.header{
+    margin: 0 auto;  
+    width: 100%;
+    height: auto; 
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url("../img/fundo_header.jpg");             
+    background-repeat: no-repeat;
+    background-size: cover;
+     
+    
+    color: white;
+}
+.main-menu .menu-item a {
+    text-decoration: none;
+}
+
+.header .main-menu{
+    padding-top: 8px;
+    
+}
+
+.main-menu .title{
+    float: left;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-right: 2px solid white;      
+    text-decoration: none;
+}
+
+.main-menu .menu-item {
+    float: right;
+    display: inline-block;
+    padding: 8px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-menu .menu-item #btn-entrar{
+    font-size: 9px;
+    color: white;    
+}
+
+.main-menu .menu-item #btn-matricula{
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.header .panel-main-message{
+    text-align: center;
+
+}
+
+.header .panel-main-message .panel-message{
+    padding: 80px 0 0 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header .panel-main-message .title{
+    font-size: 2em;    
+}
+
+.header .panel-main-message .subtitle{
+    margin-top: 4px;
+    font-size: .8em;
+}
+
+.header .panel-main-message .panel-subscribe{
+    display: inline-block;
+    margin-top: 18px;
+    font-size: .6em;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px 2px;
+    
+    background-color: rgba(0, 0, 0, .7);
+    width: 50%;
+    
+    margin-bottom: 20px;
+}
+
+.header .panel-main-message .panel-subscribe a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+    
+    cursor: pointer;
+    color: orangered;
+	}
+a:active {
+	text-decoration: none
+	}
+
+
+@media (min-width: 650px){
+
+    .header .main-menu{
+        font-size: 2em;       
+    }
+
+    .main-menu .title{       
+        border: none;
+    }
+
+    .header .panel-main-message {    
+        font-size: 32px;
+    }
+
+    .header .panel-main-message .panel-subscribe{       
+
+        width: 25%;    
+        padding-bottom: 20px;
+    }
+
+    .header .panel-main-message .panel-message{
+        padding: 400px 0 0 0; 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    
+    
+
+    
+}
